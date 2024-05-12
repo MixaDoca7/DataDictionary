@@ -99,7 +99,7 @@
           </node>
           <node concept="26ypC$" id="3Y1chVzvw6V" role="3A_TzS">
             <property role="26yu6k" value="11iTBZQL6_6/CHARACTER" />
-            <property role="26yu6i" value="-1" />
+            <property role="26yu6i" value="1" />
             <node concept="25o9rG" id="3Y1chVzvw6X" role="26yu6m">
               <property role="25o9rC" value="17z6SOs2nlD/Less" />
               <property role="25o9rE" value="12" />
@@ -145,9 +145,6 @@
       <property role="TrG5h" value="Studen" />
       <node concept="3A$gyX" id="1tybNqi3cX2" role="1Jtk3x" />
       <node concept="ngSOk" id="1tybNqi46$d" role="nj6sA">
-        <ref role="ngSOh" node="1tybNqi1Z9D" resolve="Fakultet" />
-      </node>
-      <node concept="ngSOk" id="1tybNqi46$i" role="nj6sA">
         <ref role="ngSOh" node="1tybNqi1Z9D" resolve="Fakultet" />
       </node>
     </node>

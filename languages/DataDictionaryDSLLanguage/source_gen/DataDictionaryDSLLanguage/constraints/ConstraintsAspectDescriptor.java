@@ -22,9 +22,11 @@ public class ConstraintsAspectDescriptor extends BaseConstraintsAspectDescriptor
         return new PredefinedDomen_Constraints();
       case 1:
         return new Reference_Constraints();
+      case 2:
+        return new SemanticDomen_Constraints();
       default:
     }
     return new BaseConstraintsDescriptor(concept);
   }
-  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0xc81a5de5c82046dcL, 0xb13e1fa2a0dad109L, 0x1052e67ff6c57e8bL), MetaIdFactory.conceptId(0xc81a5de5c82046dcL, 0xb13e1fa2a0dad109L, 0x1052e67ff6c6005eL)).seal();
+  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0xc81a5de5c82046dcL, 0xb13e1fa2a0dad109L, 0x1052e67ff6c57e8bL), MetaIdFactory.conceptId(0xc81a5de5c82046dcL, 0xb13e1fa2a0dad109L, 0x1052e67ff6c6005eL), MetaIdFactory.conceptId(0xc81a5de5c82046dcL, 0xb13e1fa2a0dad109L, 0x17622f3691ebb512L)).seal();
 }

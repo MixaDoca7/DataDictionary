@@ -11,7 +11,56 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
   <root>
     <file name="ConstraintsAspectDescriptor.java">
-      <unit at="13,0,31,0" name="DataDictionaryDSLLanguage.constraints.ConstraintsAspectDescriptor" />
+      <unit at="13,0,33,0" name="DataDictionaryDSLLanguage.constraints.ConstraintsAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:f2857333-d75c-4789-b303-4e75479d8895(DataDictionaryDSLLanguage.constraints)/2064173466934830779">
+    <file name="SemanticDomen_Constraints.java">
+      <node id="2064173466934830779" at="20,38,21,37" concept="8" />
+      <node id="2064173466934830780" at="25,59,26,60" concept="8" />
+      <node id="2064173466934830780" at="29,109,30,100" concept="4" />
+      <node id="2064173466934830780" at="31,53,32,166" concept="1" />
+      <node id="2064173466934830780" at="33,7,34,20" concept="5" />
+      <node id="2064173466934919760" at="36,82,37,32" concept="5" />
+      <node id="2064173466934830779" at="41,84,42,119" concept="4" />
+      <node id="2064173466934830780" at="42,119,43,61" concept="1" />
+      <node id="2064173466934830779" at="43,61,44,22" concept="5" />
+      <node id="2064173466934830779" at="48,0,49,0" concept="6" trace="SemanticDomen$w3" />
+      <node id="2064173466934830779" at="52,0,53,0" concept="6" trace="size$3BBI" />
+      <node id="2064173466934830779" at="20,0,23,0" concept="0" trace="SemanticDomen_Constraints#()V" />
+      <node id="2064173466934830780" at="25,0,28,0" concept="0" trace="Size_Property#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="2064173466934830780" at="30,100,33,7" concept="2" />
+      <node id="2064173466934830780" at="36,0,39,0" concept="7" trace="staticValidateProperty#(Lorg/jetbrains/mps/openapi/model/SNode;I)Z" />
+      <node id="2064173466934830779" at="40,0,46,0" concept="3" trace="getSpecifiedProperties#()Ljava/util/Map;" />
+      <node id="2064173466934830780" at="28,0,36,0" concept="3" trace="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/Object;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Z" />
+      <scope id="2064173466934830779" at="20,38,21,37" />
+      <scope id="2064173466934830780" at="25,59,26,60" />
+      <scope id="2064173466934830780" at="31,53,32,166" />
+      <scope id="2064173466934830861" at="36,82,37,32" />
+      <scope id="2064173466934830779" at="20,0,23,0" />
+      <scope id="2064173466934830780" at="25,0,28,0">
+        <var name="container" id="2064173466934830780" />
+      </scope>
+      <scope id="2064173466934830780" at="36,0,39,0">
+        <var name="node" id="2064173466934830780" />
+        <var name="propertyValue" id="2064173466934830780" />
+      </scope>
+      <scope id="2064173466934830779" at="41,84,44,22">
+        <var name="properties" id="2064173466934830779" />
+      </scope>
+      <scope id="2064173466934830780" at="29,109,34,20">
+        <var name="result" id="2064173466934830780" />
+      </scope>
+      <scope id="2064173466934830779" at="40,0,46,0" />
+      <scope id="2064173466934830780" at="28,0,36,0">
+        <var name="checkingNodeContext" id="2064173466934830780" />
+        <var name="node" id="2064173466934830780" />
+        <var name="propertyValue" id="2064173466934830780" />
+      </scope>
+      <unit id="2064173466934830779" at="47,0,50,0" name="DataDictionaryDSLLanguage.constraints.SemanticDomen_Constraints$CONCEPTS" />
+      <unit id="2064173466934830779" at="51,0,54,0" name="DataDictionaryDSLLanguage.constraints.SemanticDomen_Constraints$PROPS" />
+      <unit id="2064173466934830780" at="24,0,40,0" name="DataDictionaryDSLLanguage.constraints.SemanticDomen_Constraints$Size_Property" />
+      <unit id="2064173466934830779" at="19,0,55,0" name="DataDictionaryDSLLanguage.constraints.SemanticDomen_Constraints" />
     </file>
   </root>
   <root nodeRef="r:f2857333-d75c-4789-b303-4e75479d8895(DataDictionaryDSLLanguage.constraints)/5320851523927676514">

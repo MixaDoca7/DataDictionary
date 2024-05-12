@@ -77,5 +77,24 @@
   <node concept="1M2fIO" id="4Bnt$kqtx7W">
     <ref role="1M2myG" to="to3y:11iTBZQLw1u" resolve="Reference" />
   </node>
+  <node concept="1M2fIO" id="1M_qHjFrYqV">
+    <property role="3GE5qa" value="elementsOfTable" />
+    <ref role="1M2myG" to="to3y:1tybNqhUVki" resolve="SemanticDomen" />
+    <node concept="EnEH3" id="1M_qHjFrYqW" role="1MhHOB">
+      <ref role="EomxK" to="to3y:1tybNqhUWU$" resolve="size" />
+      <node concept="QB0g5" id="1M_qHjFrYsc" role="QCWH9">
+        <node concept="3clFbS" id="1M_qHjFrYsd" role="2VODD2">
+          <node concept="3clFbF" id="1M_qHjFsk9g" role="3cqZAp">
+            <node concept="2d3UOw" id="1M_qHjFszwT" role="3clFbG">
+              <node concept="1Wqviy" id="1M_qHjFsk9f" role="3uHU7B" />
+              <node concept="3cmrfG" id="1M_qHjFszxM" role="3uHU7w">
+                <property role="3cmrfH" value="0" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
