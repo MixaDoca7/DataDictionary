@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="ConstraintsAspectDescriptor.java">
+      <unit at="13,0,31,0" name="DataDictionaryDSLLanguage.constraints.ConstraintsAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:f2857333-d75c-4789-b303-4e75479d8895(DataDictionaryDSLLanguage.constraints)/5320851523927676514">
+    <file name="PredefinedDomen_Constraints.java">
+      <node id="5320851523927676514" at="20,40,21,39" concept="8" />
+      <node id="5320851523927676515" at="25,59,26,60" concept="8" />
+      <node id="5320851523927676515" at="29,109,30,100" concept="4" />
+      <node id="5320851523927676515" at="31,53,32,166" concept="1" />
+      <node id="5320851523927676515" at="33,7,34,20" concept="5" />
+      <node id="5320851523927677587" at="36,82,37,32" concept="5" />
+      <node id="5320851523927676514" at="41,84,42,119" concept="4" />
+      <node id="5320851523927676515" at="42,119,43,61" concept="1" />
+      <node id="5320851523927676514" at="43,61,44,22" concept="5" />
+      <node id="5320851523927676514" at="48,0,49,0" concept="6" trace="PredefinedDomen$X$" />
+      <node id="5320851523927676514" at="52,0,53,0" concept="6" trace="size$_0Sh" />
+      <node id="5320851523927676514" at="20,0,23,0" concept="0" trace="PredefinedDomen_Constraints#()V" />
+      <node id="5320851523927676515" at="25,0,28,0" concept="0" trace="Size_Property#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="5320851523927676515" at="30,100,33,7" concept="2" />
+      <node id="5320851523927676515" at="36,0,39,0" concept="7" trace="staticValidateProperty#(Lorg/jetbrains/mps/openapi/model/SNode;I)Z" />
+      <node id="5320851523927676514" at="40,0,46,0" concept="3" trace="getSpecifiedProperties#()Ljava/util/Map;" />
+      <node id="5320851523927676515" at="28,0,36,0" concept="3" trace="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/Object;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Z" />
+      <scope id="5320851523927676514" at="20,40,21,39" />
+      <scope id="5320851523927676515" at="25,59,26,60" />
+      <scope id="5320851523927676515" at="31,53,32,166" />
+      <scope id="5320851523927676634" at="36,82,37,32" />
+      <scope id="5320851523927676514" at="20,0,23,0" />
+      <scope id="5320851523927676515" at="25,0,28,0">
+        <var name="container" id="5320851523927676515" />
+      </scope>
+      <scope id="5320851523927676515" at="36,0,39,0">
+        <var name="node" id="5320851523927676515" />
+        <var name="propertyValue" id="5320851523927676515" />
+      </scope>
+      <scope id="5320851523927676514" at="41,84,44,22">
+        <var name="properties" id="5320851523927676514" />
+      </scope>
+      <scope id="5320851523927676515" at="29,109,34,20">
+        <var name="result" id="5320851523927676515" />
+      </scope>
+      <scope id="5320851523927676514" at="40,0,46,0" />
+      <scope id="5320851523927676515" at="28,0,36,0">
+        <var name="checkingNodeContext" id="5320851523927676515" />
+        <var name="node" id="5320851523927676515" />
+        <var name="propertyValue" id="5320851523927676515" />
+      </scope>
+      <unit id="5320851523927676514" at="47,0,50,0" name="DataDictionaryDSLLanguage.constraints.PredefinedDomen_Constraints$CONCEPTS" />
+      <unit id="5320851523927676514" at="51,0,54,0" name="DataDictionaryDSLLanguage.constraints.PredefinedDomen_Constraints$PROPS" />
+      <unit id="5320851523927676515" at="24,0,40,0" name="DataDictionaryDSLLanguage.constraints.PredefinedDomen_Constraints$Size_Property" />
+      <unit id="5320851523927676514" at="19,0,55,0" name="DataDictionaryDSLLanguage.constraints.PredefinedDomen_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:f2857333-d75c-4789-b303-4e75479d8895(DataDictionaryDSLLanguage.constraints)/5320851523930296828">
+    <file name="Reference_Constraints.java">
+      <node id="5320851523930296828" at="10,34,11,33" concept="8" />
+      <node id="5320851523930296828" at="15,0,16,0" concept="6" trace="Reference$kQ" />
+      <node id="5320851523930296828" at="10,0,13,0" concept="0" trace="Reference_Constraints#()V" />
+      <scope id="5320851523930296828" at="10,34,11,33" />
+      <scope id="5320851523930296828" at="10,0,13,0" />
+      <unit id="5320851523930296828" at="14,0,17,0" name="DataDictionaryDSLLanguage.constraints.Reference_Constraints$CONCEPTS" />
+      <unit id="5320851523930296828" at="9,0,18,0" name="DataDictionaryDSLLanguage.constraints.Reference_Constraints" />
+    </file>
+  </root>
+</debug-info>
+
